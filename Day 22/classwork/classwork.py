@@ -76,6 +76,4 @@ print(result)
 def  count_xmovnebi(a, i, e, o, u):
     print(a, i, o, e, u)  
 
-
-
 print(count_xmovnebi)
