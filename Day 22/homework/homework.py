@@ -22,11 +22,11 @@
 
 # task 1
 
-# def random_number(num):
-#     return num + 5
+def random_number(num):
+    return num + 5
 
 
-# print(random_number(23))
+print(random_number(23))
 
 
 
@@ -34,10 +34,10 @@
 # #task 2
 
 
-# def random_integer_number(num1, num2):
-#     return num1 * num2
+def random_integer_number(num1, num2):
+    return num1 * num2
 
-# print(random_integer_number(23, 67))
+print(random_integer_number(23, 67))
 
 
 
@@ -45,58 +45,58 @@
 
 # # task 3
 
-# def  manual_string(str1):
-#     return  len(str1)
+def  manual_string(str1):
+    return  len(str1)
 
-#print(manual_string)
+print(manual_string)
 
 
-# print(manual_string("erekle"))
+print(manual_string("erekle"))
 
 
 
 
 
 # #task 4
-# words = ["banana", "apple", "oreng_juice", "borjomi"]
-# def list_list(words):
-#     str_len = []
-#     for i in words:
-#         lens = len(i)
-#         str_len.append(lens)
-#     return  str_len 
+words = ["banana", "apple", "oreng_juice", "borjomi"]
+def list_list(words):
+    str_len = []
+    for i in words:
+        lens = len(i)
+        str_len.append(lens)
+    return  str_len 
 
 
 
-# print(list_list(words))
+print(list_list(words))
 
 
 
 
 # #task 5
-# def palidrtom(str2):
-#     rivers = str2[:: -1]
-#     if str2 == rivers:
-#         return  True
-#     else:
-#         return False
+def palidrtom(str2):
+    rivers = str2[:: -1]
+    if str2 == rivers:
+        return  True
+    else:
+        return False
 
-# print(palidrtom("wow"))
-# print(palidrtom("erekle"))
-# print(palidrtom("Gio"))
+print(palidrtom("wow"))
+print(palidrtom("erekle"))
+print(palidrtom("Gio"))
 
 
 # #task 6
-# str_hh = ["erekle", "giorgi", "daviti", "luka"]
-# def strings(strin_gs1):
-#     str_ebi = []
-#     for i in strin_gs1:
-#         lens = len(i)
-#         str_ebi.append(lens)
-#     nisan_GTR = sorted(str_ebi)
-#     return nisan_GTR[-1]
+str_hh = ["erekle", "giorgi", "daviti", "luka"]
+def strings(strin_gs1):
+    str_ebi = []
+    for i in strin_gs1:
+        lens = len(i)
+        str_ebi.append(lens)
+    nisan_GTR = sorted(str_ebi)
+    return nisan_GTR[-1]
 
-# print(strings(str_hh))
+print(strings(str_hh))
 
 
 
@@ -107,14 +107,14 @@
 
 # task 7
 
-# def factorial(enter_number):
-#     sum = 1
-#     for i in range(1, enter_number+1):
-#         sum = sum * i
-#     return sum
+def factorial(enter_number):
+    sum = 1
+    for i in range(1, enter_number+1):
+        sum = sum * i
+    return sum
 
 
-# print(factorial(7))
+print(factorial(7))
 
 
 
@@ -129,25 +129,25 @@
 
 
 # # task 8
-# # number9999 = [12, 45, 67, 89, 23]
-# # def number1000000(number89, number56):
-# #     sorted1 = sorted(number89)
-# #     sorted2 = sorted(number56)
-# #     return sorted1 [-1] + sorted2 [-1]
+number9999 = [12, 45, 67, 89, 23]
+def number1000000(number89, number56):
+    sorted1 = sorted(number89)
+    sorted2 = sorted(number56)
+    return sorted1 [-1] + sorted2 [-1]
 
 
 
 # # task 9
 
-# def num(number134, number345):
-#     sorted12 = sorted(number134)
-#     sorted13 = sorted(number345)
-#     return sorted12 [0] - sorted13 [0]
-# list1 = [999998999, 89, 78, 89]
-# list2 = [1000000000, 78, 78, 90]
+def num(number134, number345):
+    sorted12 = sorted(number134)
+    sorted13 = sorted(number345)
+    return sorted12 [0] - sorted13 [0]
+list1 = [999998999, 89, 78, 89]
+list2 = [1000000000, 78, 78, 90]
     
 
-# print(num(list1, list2))
+print(num(list1, list2))
 
 
 
@@ -159,13 +159,13 @@
 
 
 # # task 10
-# def manual_int(number12):
-#     sorted100000 = sorted(number12)
-#     return sorted100000 [-1] - sorted100000 [0]
+def manual_int(number12):
+    sorted100000 = sorted(number12)
+    return sorted100000 [-1] - sorted100000 [0]
 
-# list10000 = [78, 45, 67, 12]
+list10000 = [78, 45, 67, 12]
 
-# print(manual_int(list10000))
+print(manual_int(list10000))
 
 
 
@@ -242,17 +242,12 @@ print(check(22))
 
 # task 16
 
+def longest_string(strings):
+    if not strings: 
+        return None
+    return max(strings, key=len)
 
-
-
-
-
-
-
-
-
-
-
+print(longest_string(["erekle" "2121212121212121212"]))
 
 
 #task 17
